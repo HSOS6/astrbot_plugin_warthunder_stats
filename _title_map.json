@@ -1,0 +1,602 @@
+{
+  "title": {
+    "zh": "头衔",
+    "en": "Title"
+  },
+  "clear_title": {
+    "zh": "清除头衔",
+    "en": "Clear title"
+  },
+  "empty_title": {
+    "zh": "选择头衔",
+    "en": "Choose title"
+  },
+  "no_titles": {
+    "zh": "没有可用的头衔",
+    "en": "No titles to choose"
+  },
+  "all_titles": {
+    "zh": "所有头衔",
+    "en": "All titles"
+  },
+  "title_rammer": {
+    "zh": "灾星",
+    "en": "Rammer"
+  },
+  "title_cannon_fodder": {
+    "zh": "炮灰",
+    "en": "Cannon Fodder"
+  },
+  "title_inapproachable": {
+    "zh": "飞行刺猬",
+    "en": "Unapproachable"
+  },
+  "title_champion": {
+    "zh": "我是冠军",
+    "en": "Champion"
+  },
+  "title_conqueror": {
+    "zh": "征服者",
+    "en": "Conqueror"
+  },
+  "title_nine_lived": {
+    "zh": "九条命",
+    "en": "Nine Lives"
+  },
+  "title_disguise_expert": {
+    "zh": "伪装大师",
+    "en": "Master of Disguise"
+  },
+  "title_virtual_pilot": {
+    "zh": "模飞专家",
+    "en": "Virtual Pilot"
+  },
+  "title_explorer": {
+    "zh": "探险家",
+    "en": "Explorer"
+  },
+  "title_brother_of_the_brush": {
+    "zh": "油漆工",
+    "en": "Brother of the Brush"
+  },
+  "title_fine_art_expert": {
+    "zh": "艺术家",
+    "en": "Fine Art Expert"
+  },
+  "title_anarchist": {
+    "zh": "火箭狂",
+    "en": "Blaster"
+  },
+  "title_elite_commander": {
+    "zh": "精英指挥官",
+    "en": "Elite Commander"
+  },
+  "title_jet_powered": {
+    "zh": "喷气动力",
+    "en": "Jet-Powered"
+  },
+  "title_superior": {
+    "zh": "胜人一等",
+    "en": "Superior"
+  },
+  "title_research_pilot": {
+    "zh": "飞行研究员",
+    "en": "Research Pilot"
+  },
+  "title_chief_research_pilot": {
+    "zh": "高级飞行研究员",
+    "en": "Senior Research Pilot"
+  },
+  "title_aircraft_designer": {
+    "zh": "气动模型设计师",
+    "en": "Flight Model Designer"
+  },
+  "title_master_aircraft_designer": {
+    "zh": "高级气动模型设计师",
+    "en": "Senior Flight Model Designer"
+  },
+  "title_game_master": {
+    "zh": "游戏管理员",
+    "en": "Game Master"
+  },
+  "title_forum_moderator": {
+    "zh": "论坛管理员",
+    "en": "Forum Moderator"
+  },
+  "title_chat_moderator": {
+    "zh": "聊天频道管理员",
+    "en": "Chat Moderator"
+  },
+  "title_community_manager": {
+    "zh": "社区管理员",
+    "en": "Community Manager"
+  },
+  "title_air_master_4x4": {
+    "zh": "作战大师 4×4",
+    "en": "Combat master 4x4"
+  },
+  "title_alpha_tester": {
+    "zh": "内测人员",
+    "en": "Alpha Tester"
+  },
+  "title_helper": {
+    "zh": "论坛帮手",
+    "en": "Forum Helper"
+  },
+  "title_alpha_test_veteran": {
+    "zh": "资深内测人员",
+    "en": "Alpha Test Veteran"
+  },
+  "title_hero_of_stalingrad": {
+    "zh": "斯大林格勒英雄",
+    "en": "Hero of Stalingrad"
+  },
+  "title_hero_of_dover": {
+    "zh": "多佛英雄",
+    "en": "Hero of Dover"
+  },
+  "title_hero_of_midway": {
+    "zh": "中途岛英雄",
+    "en": "Hero of Midway"
+  },
+  "title_developer": {
+    "zh": "开发人员",
+    "en": "Developer"
+  },
+  "title_promising_pilot": {
+    "zh": "空战老手",
+    "en": "Pilot"
+  },
+  "title_experienced_pilot": {
+    "zh": "空战专家",
+    "en": "Fighter"
+  },
+  "title_flying_ace": {
+    "zh": "空战王牌",
+    "en": "Ace"
+  },
+  "title_god_of_war": {
+    "zh": "战争教父",
+    "en": "God of War"
+  },
+  "title_hornet": {
+    "zh": "破坏者",
+    "en": "Demolition Man"
+  },
+  "title_demolition_man": {
+    "zh": "毁灭者",
+    "en": "Destroyer"
+  },
+  "title_annihiltator": {
+    "zh": "唤雷者",
+    "en": "Thunderer"
+  },
+  "title_sea_raider": {
+    "zh": "大洋猎手",
+    "en": "Sea hunter"
+  },
+  "title_kraken": {
+    "zh": "海妖",
+    "en": "Sea dog"
+  },
+  "title_chameleon": {
+    "zh": "变色龙",
+    "en": "Chameleon"
+  },
+  "title_virtual_ace": {
+    "zh": "模飞王牌",
+    "en": "Virtual Ace"
+  },
+  "title_aaa": {
+    "zh": "专业防空",
+    "en": "Anti-Aircraft"
+  },
+  "title_tank": {
+    "zh": "坦克专家",
+    "en": "Tankman"
+  },
+  "title_tank_experienced": {
+    "zh": "坦克大师",
+    "en": "Armored Officer"
+  },
+  "title_tank_destroyer": {
+    "zh": "坦克猎手",
+    "en": "Tank Destroyer"
+  },
+  "title_tanks_pioneer": {
+    "zh": "坦克先锋",
+    "en": "Tank Pioneer"
+  },
+  "title_t34_test_engineer": {
+    "zh": "T-34 测试工程师",
+    "en": "T-34 Test Engineer"
+  },
+  "title_sherman_capturer": {
+    "zh": "智取“谢尔曼”",
+    "en": "Sherman Hunter"
+  },
+  "title_greasemonkey": {
+    "zh": "专业维修",
+    "en": "Greasemonkey"
+  },
+  "title_first_on_the_track": {
+    "zh": "抢先试驾",
+    "en": "First on the Track"
+  },
+  "title_hero_of_kursk": {
+    "zh": "库尔斯克英雄",
+    "en": "Hero of Kursk"
+  },
+  "title_pyromaniac": {
+    "zh": "纵火师",
+    "en": "Pyromaniac"
+  },
+  "title_superhero": {
+    "zh": "超级英雄",
+    "en": "Superhero"
+  },
+  "title_topracer": {
+    "zh": "头号赛手",
+    "en": "Top Racer"
+  },
+  "title_footballer": {
+    "zh": "足球运动员",
+    "en": "Footballer"
+  },
+  "title_2v2_duelist": {
+    "zh": "2v2 行家",
+    "en": "2v2 Duelist"
+  },
+  "title_tank_universiade": {
+    "zh": "作战运动会",
+    "en": "Universiade Fighter"
+  },
+  "title_1v1_duelist": {
+    "zh": "1v1 行家",
+    "en": "1v1 Duelist"
+  },
+  "title_1v1_master": {
+    "zh": "1v1 大师",
+    "en": "1v1 Master-duelist"
+  },
+  "title_1v1_hero": {
+    "zh": "决斗英雄",
+    "en": "Duelist-hero"
+  },
+  "title_wings_of_victory": {
+    "zh": "胜利之翼",
+    "en": "Wings of Victory"
+  },
+  "title_normandy_ace": {
+    "zh": "诺曼底王牌",
+    "en": "Normandy Ace"
+  },
+  "title_gladiators4v4": {
+    "zh": "4v4 角斗士",
+    "en": "Gladiators 4v4"
+  },
+  "title_beeline": {
+    "zh": "嗡嗡嗡嗡",
+    "en": "Bzzzzzzz"
+  },
+  "title_council_member": {
+    "zh": "玩家理事会成员",
+    "en": "Council Member"
+  },
+  "title_suggestion_helper": {
+    "zh": "玩家建议整理团队",
+    "en": "Suggestion Moderator"
+  },
+  "title_community_helper": {
+    "zh": "社区助理",
+    "en": "Community Helper"
+  },
+  "title_target_for_tonight": {
+    "zh": "今夜目标",
+    "en": "Target for Tonight"
+  },
+  "title_live_moderator": {
+    "zh": "Live 团队",
+    "en": "Live Moderator"
+  },
+  "title_steam_moderator": {
+    "zh": "Steam 管理团队",
+    "en": "Steam Moderator"
+  },
+  "title_gaijin_administrator": {
+    "zh": "Gaijin 高管",
+    "en": "Gaijin Administrator"
+  },
+  "title_wiki_team": {
+    "zh": "百科团队",
+    "en": "Wiki Team"
+  },
+  "title_national_coordinator": {
+    "zh": "社区协调员",
+    "en": "National Coordinator"
+  },
+  "title_technical_moderator": {
+    "zh": "技术团队",
+    "en": "Technical Moderator"
+  },
+  "title_author": {
+    "zh": "原创者",
+    "en": "Author"
+  },
+  "title_china_cbt_hero": {
+    "zh": "集结精英",
+    "en": "CBT Hero"
+  },
+  "title_china_cbt_elite": {
+    "zh": "内测元勋",
+    "en": "CBT Elite"
+  },
+  "title_cavalier_legion_of_honour": {
+    "zh": "国家荣誉军团勋章勋位骑士",
+    "en": "Chevalier of the Legion of Honour"
+  },
+  "title_cavalier_liberation": {
+    "zh": "法国解放勋章勋位骑士",
+    "en": "Cavalier of the Order of Liberation"
+  },
+  "title_chevalier_of_france": {
+    "zh": "国家功勋勋章勋位骑士",
+    "en": "Chevalier of the Order of Merit of France"
+  },
+  "title_santa_ny2014": {
+    "zh": "圣诞送温暖",
+    "en": "Santa's Little Helper"
+  },
+  "title_vk_quiz_expert": {
+    "zh": "Answer 7 of 10 questions correctly using FB application.",
+    "en": "Answer 7 of 10 questions correctly using FB application."
+  },
+  "title_fb_quiz_expert": {
+    "zh": "Answer 7 of 10 questions correctly using FB application.",
+    "en": "Answer 7 of 10 questions correctly using FB application."
+  },
+  "title_lookout": {
+    "zh": "蓝海守望者",
+    "en": "Lookout"
+  },
+  "title_siege_master": {
+    "zh": "攻城师",
+    "en": "Siege Master"
+  },
+  "title_high_roller": {
+    "zh": "挥金如土",
+    "en": "High Roller"
+  },
+  "title_cavalier_order_savoy": {
+    "zh": "萨伏依军功勋章勋位骑士",
+    "en": "Cavalier of the Order of Savoy"
+  },
+  "title_cavalier_order_savoy/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_cross_distinguished_service": {
+    "zh": "杰出服役十字章获得者",
+    "en": "Cavalier of the Distinguished Service Cross"
+  },
+  "title_cavalier_cross_distinguished_service/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_cross_merit_of_war": {
+    "zh": "战功十字章勋位骑士",
+    "en": "Cavalier of the Cross of Merit of War"
+  },
+  "title_cavalier_cross_merit_of_war/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_german_gold_cross": {
+    "zh": "金质德意志十字战争勋章获得者",
+    "en": "Cavalier of the German Cross in Gold"
+  },
+  "title_cavalier_german_gold_cross/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_knight_kross": {
+    "zh": "骑士铁十字章获得者",
+    "en": "Cavalier of the Knights Cross"
+  },
+  "title_cavalier_knight_kross/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_medal_of_honor": {
+    "zh": "荣誉勋章获得者",
+    "en": "Cavalier of the Medal of Honor"
+  },
+  "title_cavalier_medal_of_honor/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_crown_italy": {
+    "zh": "意大利王冠勋章勋位骑士",
+    "en": "Cavalier of the Order of the Crown of Italy"
+  },
+  "title_cavalier_order_crown_italy/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_distinguished_service": {
+    "zh": "杰出服务勋章勋位骑士",
+    "en": "Cavalier of the Distinguished Service Order"
+  },
+  "title_cavalier_order_distinguished_service/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_golden_kite": {
+    "zh": "获颁金鸱勋章",
+    "en": "Cavalier of the Order of the Golden Kite"
+  },
+  "title_cavalier_order_golden_kite/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_of_glory": {
+    "zh": "荣膺光荣勋章",
+    "en": "Cavalier of the Order of Glory"
+  },
+  "title_cavalier_order_of_glory/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_patriotic_war": {
+    "zh": "荣膺卫国战争勋章",
+    "en": "Cavalier of the Order of the Patriotic War"
+  },
+  "title_cavalier_order_patriotic_war/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_red_banner": {
+    "zh": "荣膺红旗勋章",
+    "en": "Cavalier of the Order of the Red Banner"
+  },
+  "title_cavalier_order_red_banner/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_red_star": {
+    "zh": "荣膺红星勋章",
+    "en": "Cavalier of the Order of the Red Star"
+  },
+  "title_cavalier_order_red_star/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_rising_sun": {
+    "zh": "获颁旭日章",
+    "en": "Cavalier of the Order of the Rising Sun"
+  },
+  "title_cavalier_order_rising_sun/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_sacred_treasure": {
+    "zh": "获颁瑞宝章",
+    "en": "Cavalier of the Order of the Sacred Treasure"
+  },
+  "title_cavalier_order_sacred_treasure/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_victoria_cross": {
+    "zh": "维多利亚十字章勋位骑士",
+    "en": "Cavalier of the Victoria Cross"
+  },
+  "title_cavalier_victoria_cross/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cowboy": {
+    "zh": "▃ 牛仔 ▃",
+    "en": "▃ Cowboy ▃"
+  },
+  "title_samurai": {
+    "zh": "▅ 武士 ▅",
+    "en": "▅ Samurai ▅"
+  },
+  "title_knight": {
+    "zh": "▄ 骑士 ▄",
+    "en": "▄ Knight ▄"
+  },
+  "title_eagle": {
+    "zh": "▀ 战鹰 ▀",
+    "en": "▀ Eagle ▀"
+  },
+  "title_falcon": {
+    "zh": "▂ 猎鹰 ▂",
+    "en": "▂ Falcon ▂"
+  },
+  "title_all": {
+    "zh": "▂▀▄▅▃",
+    "en": "▂▀▄▅▃"
+  },
+  "title_3_years": {
+    "zh": "-- III --",
+    "en": "-- III --"
+  },
+  "title_true_australian": {
+    "zh": "澳洲人",
+    "en": "True Australian"
+  },
+  "title_madman": {
+    "zh": "狂人！",
+    "en": "Madman!"
+  },
+  "title_madman/desc": {
+    "zh": "完成所有“夏日大狂欢”任务即可获得此头衔。",
+    "en": "The player who completes all \"Summertime madness\" tasks will be given the title."
+  },
+  "title_cavalier_order_precious_tripod": {
+    "zh": "宝鼎勋章受章者",
+    "en": "Cavalier of the Order of Precious Tripod"
+  },
+  "title_cavalier_order_precious_tripod/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_order_cloud_banner": {
+    "zh": "云麾勋章受章者",
+    "en": "Cavalier of the Order of the Cloud and Banner"
+  },
+  "title_cavalier_order_cloud_banner/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_grand_sword_cross": {
+    "zh": "皇家骑士大十字宝剑勋章勋位骑士",
+    "en": "Knight of the Grand Sword Cross"
+  },
+  "title_cavalier_grand_sword_cross/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "title_cavalier_sword_cross": {
+    "zh": "皇家宝剑徽章勋位骑士",
+    "en": "Cavalier of the Order of the Sword Cross"
+  },
+  "title_cavalier_sword_cross/desc": {
+    "zh": "",
+    "en": ""
+  },
+  "battlepass_season_1_champion": {
+    "zh": "战斗通行证 • 征服第 1 赛季",
+    "en": "Champion of the BattlePass 1st Season"
+  },
+  "battlepass_season_1_champion/desc": {
+    "zh": "将战斗通行证 • 第 1 赛季升至 150 级或更高即可获得此头衔",
+    "en": "The player who unlock 150 or more Battlepass 1st Season's levels will be given the title"
+  },
+  "title_sky_pirate": {
+    "zh": "空中海盗",
+    "en": "Sky Pirate"
+  },
+  "title_sky_pirate/desc": {
+    "zh": "此奖项颁发给参与《航空大英雄》游戏测试，并展现了自己英勇无畏的品格与高超的海盗职业技能的玩家。",
+    "en": "A player is rewarded that has demonstrated fierce courage and mastered their pirate skills in the TailSpin game."
+  },
+  "title_veteran_2077": {
+    "zh": "2077 战争老兵",
+    "en": "Veteran 2077"
+  },
+  "title_prowler_in_the_night": {
+    "zh": "暗夜徘徊者",
+    "en": "Prowler in the Night"
+  },
+  "title_warrior_of_the_night": {
+    "zh": "黯影战士",
+    "en": "Warrior of the Night"
+  },
+  "title_lord_of_the_night": {
+    "zh": "终夜霸主",
+    "en": "Lord of the Night"
+  }
+}

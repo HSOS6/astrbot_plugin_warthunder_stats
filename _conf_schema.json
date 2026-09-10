@@ -1,0 +1,86 @@
+{
+  "data_source": {
+    "description": "数据源选择",
+    "type": "string",
+    "default": "app",
+    "options": ["app", "official", "custom"],
+    "hint": "app：战雷助手 App 接口（数据最全）；official：War Thunder 官网爬取；custom：自定义API"
+  },
+  "app_login": {
+    "description": "Gaijin 账号（仅 app 模式有效）",
+    "type": "string",
+    "default": "",
+    "hint": "用于登录 War Thunder 战雷助手 App 接口。建议使用专门的小号或只读用途账号。"
+  },
+  "app_password": {
+    "description": "Gaijin 密码（仅 app 模式有效）",
+    "type": "string",
+    "default": "",
+    "is_password": true,
+    "hint": "用于登录 War Thunder 战雷助手 App 接口。插件只在本地向 Gaijin 官方接口提交。"
+  },
+  "api_base_url": {
+    "description": "自定义 API 基础地址（仅 custom 模式有效）",
+    "type": "string",
+    "default": "",
+    "hint": "例如：https://api.example.com  结尾不需要斜杠。"
+  },
+  "api_key": {
+    "description": "API 密钥（如需要，仅 custom 模式有效）",
+    "type": "string",
+    "default": "",
+    "is_password": true,
+    "hint": "如果 API 不需要密钥，留空即可。"
+  },
+  "api_timeout_seconds": {
+    "description": "API 请求超时时间（秒）",
+    "type": "int",
+    "default": 20,
+    "hint": "建议 ≥15，使用 cf_clearance 时很快，用 nodriver 需 10-15 秒过 Cloudflare"
+  },
+  "default_mode": {
+    "description": "默认查询模式",
+    "type": "string",
+    "default": "arcade",
+    "options": ["arcade", "realistic", "simulation"],
+    "hint": "街机(arcade) / 历史(realistic) / 全真(simulation)"
+  },
+  "cf_clearance": {
+    "description": "Cloudflare cf_clearance Cookie（备选方案）",
+    "type": "string",
+    "default": "",
+    "is_password": true,
+    "hint": "【备选方案】从浏览器Cookie中复制 cf_clearance 的值。注意：Cookie 可能绑定 IP，服务器与浏览器 IP 不同时会失效。推荐使用 FlareSolverr。"
+  },
+  "flaresolverr_url": {
+    "description": "FlareSolverr 地址（服务器首选，强烈推荐！！）",
+    "type": "string",
+    "default": "",
+    "hint": "【服务器首选】部署 FlareSolverr 后填写，如 http://localhost:8191 。Docker 部署：docker run -d --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr:latest 。无需浏览器，无需 cf_clearance，自动绕过 Cloudflare。"
+  },
+  "browser_user_agent": {
+    "description": "浏览器 User-Agent（配合 cf_clearance 使用）",
+    "type": "string",
+    "default": "",
+    "hint": "获取 cf_clearance cookie 的浏览器的 User-Agent。获取方法：F12 → 网络 → 随便点一个请求 → 请求头 → User-Agent"
+  },
+  "browser_impersonate": {
+    "description": "curl_cffi 浏览器指纹模拟目标（配合 cf_clearance 使用）",
+    "type": "string",
+    "default": "chrome131",
+    "options": ["chrome131", "chrome124", "chrome120", "chrome110", "chrome99", "edge101", "safari17_0"],
+    "hint": "选择与获取 cf_clearance cookie 的浏览器版本最接近的指纹。Chrome 131+ 选 chrome131，Chrome 120-130 选 chrome124，旧版选 chrome120"
+  },
+  "nodriver_headless": {
+    "description": "nodriver 无头模式（服务器有 Chrome 时可用）",
+    "type": "bool",
+    "default": false,
+    "hint": "开启后 nodriver 在后台运行 Chrome（无窗口）。服务器若无显示器可开启，但 Windows Server 建议优先使用 FlareSolverr。"
+  },
+  "enable_clan_info": {
+    "description": "战绩查询时附带联队信息",
+    "type": "bool",
+    "default": true,
+    "hint": "开启后会额外请求联队页面，查询稍慢但数据更全"
+  }
+}
