@@ -33,6 +33,7 @@ SECTION_GAP = 10
 SIDE_PAD = 10
 
 FONT_CANDIDATE_FILES = [
+    'fonts/NotoSansSC-Medium-Subset.ttf',
     'fonts/NotoSansCJKsc-Regular.otf',
     'fonts/NotoSansSC-Regular.otf',
     'fonts/msyh.ttc',
@@ -613,14 +614,14 @@ class WarThunderStatsRenderer:
         source = data.get('source', 'official')
         if source == 'app':
             lines = [
-                'AstrBot 为您生成',
-                '• 本图片由插件绘制，数据来源于 Gaijin 官方 War Thunder 助手 App 接口',
+                'Powered by AstrBot|astrbot_plugin_warthunder_stats',
+                '• 本图片由插件绘制，数据来源于 Gaijin 官方 WTRAssistant 接口',
                 '• 本图绘制时使用的头像、称号、载具文本等版权均归属于 Gaijin 官方',
                 '• 图片展示的数据可能存在缓存或同步延迟，请以游戏内显示为准',
             ]
         else:
             lines = [
-                'AstrBot 为您生成',
+                'Powered by AstrBot|astrbot_plugin_warthunder_stats',
                 '• 本图片由插件绘制，数据来源于 War Thunder 官方公开页面',
                 '• 图片展示的数据可能存在缓存或同步延迟，请以游戏内显示为准',
             ]

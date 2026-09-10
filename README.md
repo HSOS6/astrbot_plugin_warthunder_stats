@@ -108,6 +108,7 @@ docker run -d --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr
 
 - 基础依赖：`aiohttp`、`Pillow`、`httpx`、`cryptography`、`blackboxprotobuf`，详见 [requirements.txt](requirements.txt)。
 - `official` 模式还需要 `beautifulsoup4`、`curl_cffi`，并根据环境配置 FlareSolverr、`cf_clearance` 或 `nodriver`。
+- 插件内置约 2.7 MiB 的 Noto Sans SC Medium（500 字重）子集字体作为中文渲染兜底，覆盖 GB2312 常用汉字及插件现有称号、载具和界面文本。缺少字符时可安装完整的微软雅黑、Noto Sans CJK 或文泉驿字体。
 
 ## 常见问题
 
@@ -134,7 +135,8 @@ docker run -d --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr
 | [get_cf_cookie.py](get_cf_cookie.py) | 从 Chrome 或 Edge Cookie 数据库提取 `cf_clearance` 的工具 |
 | [_title_map.json](_title_map.json) / [_titles.csv](_titles.csv) | 称号中文映射表 |
 | [_units.csv](_units.csv) | 载具名称中文映射表 |
-| [fonts/](fonts/) | 图片渲染使用的中文字体 |
+| [fonts/NotoSansSC-Medium-Subset.ttf](fonts/NotoSansSC-Medium-Subset.ttf) | 图片渲染使用的 Noto Sans SC Medium 子集字体 |
+| [fonts/OFL.txt](fonts/OFL.txt) | 内置字体的 SIL Open Font License 1.1 许可证 |
 
 ## 项目信息
 
