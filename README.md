@@ -4,6 +4,8 @@
 
 ![logo](./logo.png)
 
+喜欢就点个Star吧~
+
 ## 功能特性
 
 - **战绩总览**：展示街机、历史、拟真三种模式的 PVP 数据。
@@ -148,3 +150,5 @@ docker run -d --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr
 - 支持平台：aiocqhttp、qq_official，其他平台未经测试
 
 数据来源于 War Thunder 官网与战雷助手 App 接口，仅供学习和交流使用，参考本项目代码请标明原作者及本项目地址。
+
+有新的内容和点子欢迎提交PR和issues！
