@@ -72,6 +72,8 @@ pip install -r astrbot_plugin_warthunder_stats/requirements.txt
 
 FlareSolverr Docker 部署示例：
 
+附加提示：请不要把该项目暴露到公网，以防止被黑客利用！
+
 ```bash
 docker run -d --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr:latest
 ```
